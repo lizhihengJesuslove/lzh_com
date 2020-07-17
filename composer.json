@@ -1,0 +1,20 @@
+{
+    "name": "lzh/lzh_com",
+    "description": "composer",
+    "type": "library",
+    "require": {
+        "php": "^7.3"
+    },
+    "license": "min",
+    "authors": [
+        {
+            "name": "lizhiheng",
+            "email": "lizhiheng@kaituocn.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "lzh\\": "src/lzh"
+        }
+    }
+}
